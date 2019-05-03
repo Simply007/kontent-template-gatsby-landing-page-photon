@@ -1,5 +1,7 @@
 # Kentico Cloud & GatsbyJs web template
 
+[![Preview](https://img.shields.io/badge/-Preview-brightgreen.svg)](https://cloud-template-gatsby.surge.sh/)
+
 Kentico cloud web template using Gatsby and Kentico Cloud.
 
 ## Get started
