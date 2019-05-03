@@ -1,4 +1,4 @@
-# Kentico Cloud & GatsbyJs web template
+# Kentico Cloud & GatsbyJs web template [WIP]
 
 [![Preview](https://img.shields.io/badge/-Preview-brightgreen.svg)](https://cloud-template-gatsby.surge.sh/)
 
