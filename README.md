@@ -11,7 +11,7 @@ Kentico cloud web template using Gatsby and Kentico Cloud.
 
 ### Run
 
-* [Clone](https://git-scm.com/docs/git-clone) or [fork](https://hub.github.com/hub-fork.1.html) this repository. Once it's done, navigate to the [app's root directory](https://github.com/Simply007/cloud-template-gatsby) and install the packegs:
+* [Clone](https://git-scm.com/docs/git-clone) or [fork](https://hub.github.com/hub-fork.1.html) this repository. Once it's done, navigate to the [app's root directory](https://github.com/Simply007/cloud-template-gatsby) and install the packages:
 
     ```sh
     yarn
