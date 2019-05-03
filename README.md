@@ -33,7 +33,7 @@ The grid on this site was replaced with a custom version, built using CSS Grid. 
 
 Here is an example of using the grid, for a 3 column layout:
 
-```
+```html
 <div className="grid-wrapper">
     <div className="col-4">
         <p>Adipiscing a commodo ante nunc accumsan et interdum mi ante adipiscing. A nunc lobortis non nisl amet vis sed volutpat aclacus nascetur ac non. Lorem curae et ante amet sapien sed tempus adipiscing id accumsan.</p>
