@@ -25,6 +25,10 @@ Kentico cloud web template using Gatsby and Kentico Cloud.
     yarn develop
     ```
 
+## Colo palette
+
+TODO - describe color pallete from `_vars.scss`
+
 ## Icons
 
 TODO: fontawesome + material icons

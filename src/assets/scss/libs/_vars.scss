@@ -14,10 +14,21 @@ family-fixed: ("Courier New",
 monospace),
 weight: 300,
 weight-bold: 400);
-$color-primary: #673ab7;
+
+$blue-200: #62bef9;
+$blue-300 : #0096f5;
+$blue-500 : #008ae1;
+$blue-600 : #0087DC;
+$blue-700 : #0064a3;
+$blue-800 : #0071b8;
+$blue-900 : #00578f;
+$blue-1000 : #004B7B;
+
+$color-primary: $blue-600;
 $color-secondary: #ffffff;
 $color-background: $color-secondary;
 $color-background-secondary: $color-primary;
+
 // Palette.
 $palette: (bg: #fff,
 fg: #666,
@@ -28,17 +39,17 @@ border-bg: rgba(144, 144, 144, 0.075),
 border2: rgba(144, 144, 144, 0.75),
 border2-bg: rgba(144, 144, 144, 0.2),
 accent1: #ede7f6,
-accent2: #d1c4e9,
-accent3: #b39ddb,
-accent4: #9575cd,
-accent5: #7e57c2,
-accent6: #673ab7,
+accent2: $blue-200,
+accent3: $blue-300,
+accent4: $blue-500,
+accent5: $blue-600,
+accent6: $blue-700,
 accent1-alt: desaturate(darken(#ede7f6, 15), 20),
-accent2-alt: desaturate(darken(#d1c4e9, 15), 20),
-accent3-alt: desaturate(darken(#b39ddb, 15), 20),
-accent4-alt: desaturate(darken(#9575cd, 15), 20),
-accent5-alt: desaturate(darken(#7e57c2, 15), 20),
-accent6-alt: desaturate(darken(#673ab7, 15), 20),
+accent2-alt: desaturate(darken($blue-200, 15), 20),
+accent3-alt: desaturate(darken($blue-300, 15), 20),
+accent4-alt: desaturate(darken($blue-500, 15), 20),
+accent5-alt: desaturate(darken($blue-600, 15), 20),
+accent6-alt: desaturate(darken($blue-700, 15), 20),
 dark: (bg: #666666,
 fg-bold: #ffffff,
 fg: rgba(255, 255, 255, 0.75),
