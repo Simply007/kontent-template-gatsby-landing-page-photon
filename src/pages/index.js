@@ -60,6 +60,17 @@ class Homepage extends React.Component {
               secondary_text {
                 value
               }
+              icons {
+                ... on Node {
+                  ... on KenticoCloudItemIcon {
+                    elements {
+                      code {
+                        value
+                      }
+                    }
+                  }
+                }
+              }
             }
           }
           ... on KenticoCloudItemThreeColumnsSection {

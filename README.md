@@ -29,6 +29,9 @@ Kentico cloud web template using Gatsby and Kentico Cloud.
 
 TODO: fontawesome + material icons
 
+mi: `<li><i className="icon style1 major material-icons">face</i></li>`
+fa: `<li><span  className="icon style1 major fa-code"></span></li>`
+
 ## CSS Grid
 
 The grid on this site was replaced with a custom version, built using CSS Grid. It's a very simple 12 column grid that is disabled on mobile. To start using the grid, wrap the desired items with `grid-wrapper`. Items inside the `grid-wrapper` use the class `col-` followed by a number, which should add up to 12.
