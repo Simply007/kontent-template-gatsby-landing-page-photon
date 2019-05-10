@@ -2,7 +2,7 @@ import React from 'react'
 
 const featuresSection = ({elements}) => {
     const  icons = elements.icons.map((icon, index) => 
-        <li><span  className={`icon style${index+1} major ${icon.elements.code.value}`}></span></li>
+        <li key={icon.system.id}><span  className={`icon style${index+1} major ${icon.elements.code.value}`}></span></li>
     );
 
     return (<section id="two" className="main style2">

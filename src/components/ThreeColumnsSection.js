@@ -4,12 +4,13 @@ import BlogPostThumbnail from './BlogPostThumbnail';
 
 const threeColumnsSection = ({ elements }) => {
 
-    const blogThumbnails = elements.columns.map((blogPost) =>
+    const blogThumbnails = elements.columns.map((blogPost) => (
         <BlogPostThumbnail
             {...blogPost}
             key={blogPost.system.id}
             detailValue={elements.detail_text.value}
-        />);
+        />
+    ));
 
 
     return (

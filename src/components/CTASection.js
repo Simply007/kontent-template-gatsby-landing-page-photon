@@ -1,23 +1,23 @@
 import React from 'react';
 
 const ctaSection = ({ elements }) => {
-  const buttons = elements.buttons.map(({ elements }) =>
-    <li>
+  const buttons = elements.buttons.map(({ elements, system }) =>
+    <li key={system.id}>
       <a
         href={elements.url.value}
-        class={`button ${elements.special.value.map((isChecked) => isChecked.codename)}`}>
+        className={`button ${elements.special.value.map((isChecked) => isChecked.codename)}`}>
         {elements.text.value}
       </a>
     </li>);
 
   return (
-    <section id="four" class="main style2 special">
-      <div class="container">
-        <header class="major">
+    <section id="four" className="main style2 special">
+      <div className="container">
+        <header className="major">
           <h2>{elements.primary_text.value}</h2>
         </header>
         <p>{elements.secondary_text.value}</p>
-        <ul class="actions uniform">
+        <ul className="actions uniform">
           {buttons}
         </ul>
       </div>

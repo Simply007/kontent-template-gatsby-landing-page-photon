@@ -1,8 +1,8 @@
 import React from 'react';
 
 const footerSection = ({ elements }) => {
-  const icons = elements.icons.map(({ elements }) => (
-    <li>
+  const icons = elements.icons.map(({ elements, system }) => (
+    <li key={system.id}>
       <a
         href={elements.url.value}
         className={`icon alt ${elements.icon[0].elements.code.value}`}>

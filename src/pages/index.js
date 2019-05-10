@@ -63,6 +63,9 @@ class Homepage extends React.Component {
               icons {
                 ... on Node {
                   ... on KenticoCloudItemIcon {
+                    system {
+                      id
+                    }
                     elements {
                       code {
                         value
@@ -119,8 +122,10 @@ class Homepage extends React.Component {
               }
               buttons {
                 ... on Node {
-                  id
                   ... on KenticoCloudItemButton {
+                    system {
+                      id
+                    }
                     elements {
                       text {
                         value
@@ -144,6 +149,9 @@ class Homepage extends React.Component {
               icons {
                 ... on Node {
                   ... on KenticoCloudItemLinkIcon {
+                    system {
+                      id
+                    }
                     elements {
                       text {
                         value
