@@ -97,6 +97,9 @@ class Homepage extends React.Component {
                       title {
                         value
                       }
+                      slug {
+                        value
+                      }
                       summary {
                         value
                       }
