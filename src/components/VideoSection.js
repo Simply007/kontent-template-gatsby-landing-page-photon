@@ -12,7 +12,7 @@ const videoSection = ({ system, elements }) => (
       <div className="col-6">
         <span className="fit">
           <iframe
-            width="420"
+            width="100%"
             height="315"
             title={elements.primary_text.value}
             src={`https://www.youtube.com/embed/${elements.youtube_id.value}`}
