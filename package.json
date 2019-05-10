@@ -1,7 +1,7 @@
 {
   "name": "cloud-template-gatsby",
   "description": "Kentico Cloud & GatsbyJs web template.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Ondřej Chrastina <chrastina.ondra@gmail.com> (https://github.com/Simply007)",
   "keywords": [
     "kentico",
