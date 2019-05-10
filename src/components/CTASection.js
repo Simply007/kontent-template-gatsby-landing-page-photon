@@ -1,14 +1,18 @@
-import React from 'react';
+import React from 'react'
 
 const ctaSection = ({ elements }) => {
-  const buttons = elements.buttons.map(({ elements, system }) =>
+  const buttons = elements.buttons.map(({ elements, system }) => (
     <li key={system.id}>
       <a
         href={elements.url.value}
-        className={`button ${elements.special.value.map((isChecked) => isChecked.codename)}`}>
+        className={`button ${elements.special.value.map(
+          isChecked => isChecked.codename
+        )}`}
+      >
         {elements.text.value}
       </a>
-    </li>);
+    </li>
+  ))
 
   return (
     <section id="four" className="main style2 special">
@@ -17,11 +21,9 @@ const ctaSection = ({ elements }) => {
           <h2>{elements.primary_text.value}</h2>
         </header>
         <p>{elements.secondary_text.value}</p>
-        <ul className="actions uniform">
-          {buttons}
-        </ul>
+        <ul className="actions uniform">{buttons}</ul>
       </div>
     </section>
-  );
+  )
 }
-export default ctaSection;
+export default ctaSection
