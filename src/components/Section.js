@@ -9,7 +9,6 @@ import FooterSection from "./FooterSection";
 
 
 const Section = (props) => {
-  console.log(props);
   switch (props.data.__typename) {
     case 'KenticoCloudItemHeaderSection':
       return <HeaderSection {...props.data} />;

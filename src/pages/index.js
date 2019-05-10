@@ -74,13 +74,98 @@ class Homepage extends React.Component {
             }
           }
           ... on KenticoCloudItemThreeColumnsSection {
-            id
+            elements {
+              primary_text {
+                value
+              }
+              secondary_text {
+                value
+              }
+              detail_text {
+                value
+              }
+              columns {
+                ... on Node {
+                  ... on KenticoCloudItemBlogPost {
+                    system {
+                      id
+                    }
+                    elements {
+                      title {
+                        value
+                      }
+                      summary {
+                        value
+                      }
+                      image {
+                        assets {
+                          name
+                          url
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
           }
           ... on KenticoCloudItemCtaSection {
-            id
+            elements {
+              primary_text {
+                value
+              }
+              secondary_text {
+                value
+              }
+              buttons {
+                ... on Node {
+                  id
+                  ... on KenticoCloudItemButton {
+                    elements {
+                      text {
+                        value
+                      }
+                      url {
+                        value
+                      }
+                      special {
+                        value {
+                          codename
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
           }
           ... on KenticoCloudItemFooterSection {
             elements {
+              icons {
+                ... on Node {
+                  ... on KenticoCloudItemLinkIcon {
+                    elements {
+                      text {
+                        value
+                      }
+                      url {
+                        value
+                      }
+                      icon {
+                        ... on Node {
+                          ... on KenticoCloudItemIcon {
+                            elements {
+                              code {
+                                value
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
               copyright {
                 value
               }
