@@ -1,4 +1,4 @@
-# Kentico Cloud & GatsbyJs web template [WIP]
+# Kentico Cloud & GatsbyJs web template
 
 [![Preview](https://img.shields.io/badge/-Preview-brightgreen.svg)](https://cloud-template-gatsby.surge.sh/)
 
@@ -13,30 +13,49 @@ Kentico cloud web template using Gatsby and Kentico Cloud.
 
 ### Run
 
-* [Clone](https://git-scm.com/docs/git-clone) or [fork](https://hub.github.com/hub-fork.1.html) this repository. Once it's done, navigate to the [app's root directory](https://github.com/Simply007/cloud-template-gatsby) and install the packages:
+1. [Clone](https://git-scm.com/docs/git-clone) or [fork](https://hub.github.com/hub-fork.1.html) this repository. Once it's done, navigate to the app's `/source`  and install the packages:
 
     ```sh
+    cd source
     yarn
     ```
 
-* Run development environment
+1. [Register on Kentico Cloud](http://app.kenticocloud.com)
+1. [Create an empty project](https://docs.kenticocloud.com/tutorials/set-up-projects/manage-projects/adding-projects)
+1. [Enable Content Management API](https://docs.kenticocloud.com/tutorials/set-up-projects/migrate-content/importing-to-kentico-cloud#a-enabling-the-api-for-your-project)
+1. Import [content.zip](/content.zip) data using [Template manager](https://kentico.github.io/cloud-template-manager/import-from-file)
+    * Use `Project Id` and `Content Management API key` from previously generated project.
+1. Place the `ProjectId` to the  [`/source/gatsby-config.js`](/source/gatsby-config.js#L13) configuration file.
+1. Run development environment
 
     ```sh
     yarn develop
     ```
 
-## Colo palette
+🚀 Your site is now running at http://localhost:8000!
 
-TODO - describe color pallete from `_vars.scss`
+## Features
 
-## Icons
+* [GatsbyJS](https://www.gatsbyjs.org/) static site generator
+* Data source - Kentico Cloud (using [Gatsby source plugin for Kentico Cloud](https://www.gatsbyjs.org/packages/gatsby-source-kentico-cloud/))
+* Styling using SCSS
+* [Font awesome + Material Icons](#Icons)
+* [CSS Grid](#CSS-Grid)
 
-TODO: fontawesome + material icons
+### Color palette
 
-mi: `<li><i className="icon style1 major material-icons">face</i></li>`
-fa: `<li><span  className="icon style1 major fa-code"></span></li>`
+To define color pallette - change values of variables stored in [_vars.scss](https://github.com/Simply007/cloud-template-gatsby/blob/master/source/src/assets/scss/libs/_vars.scss#L32).
 
-## CSS Grid
+### Icons
+
+It is possible to use [two sets of font icons](https://github.com/Simply007/cloud-template-gatsby/tree/master/source/src/assets/css) - [Material Icons](https://material.io/tools/icons/) as well as [Font Awesome](https://fontawesome.com/).
+
+Format Example:
+
+* Material icons: `<i className="material-icons">face</i>` (`face` - icon code)
+* Font Awesome : `<li><span  className="fa-code"></span></li>` (`fa-code` - icon code)
+
+### CSS Grid
 
 The grid on this site was replaced with a custom version, built using CSS Grid. It's a very simple 12 column grid that is disabled on mobile. To start using the grid, wrap the desired items with `grid-wrapper`. Items inside the `grid-wrapper` use the class `col-` followed by a number, which should add up to 12.
 
