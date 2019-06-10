@@ -4,6 +4,8 @@
 
 Kentico cloud web template using Gatsby and Kentico Cloud.
 
+![template preview](/template.jpg)
+
 ## Get started
 
 ### Prerequisites
