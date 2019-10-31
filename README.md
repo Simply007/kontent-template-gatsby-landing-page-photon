@@ -1,7 +1,7 @@
 # Kentico Cloud & GatsbyJs web template
 
 [![Preview](https://img.shields.io/badge/-Preview-brightgreen.svg)](https://kontent-template-gatsby-landing-page-photon.surge.sh/)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/07e262e7-c8b3-4522-88f4-28c82b7b271e/deploy-status)](https://app.netlify.com/sites/kontent-template-gatsby-landing-page-photon/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ba608493-8415-46e4-87c9-19f025f56619/deploy-status)](https://app.netlify.com/sites/kontent-template-gatsby-landing-page-photon/deploys)
 
 Kentico cloud web template using Gatsby and Kentico Cloud.
 
