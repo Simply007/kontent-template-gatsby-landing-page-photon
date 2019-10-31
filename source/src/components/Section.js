@@ -9,17 +9,17 @@ import FooterSection from './FooterSection'
 
 const Section = props => {
   switch (props.data.__typename) {
-    case 'KenticoCloudItemHeaderSection':
+    case 'KontentItemHeaderSection':
       return <HeaderSection {...props.data} />
-    case 'KenticoCloudItemVideoSection':
+    case 'KontentItemVideoSection':
       return <VideoSection {...props.data} />
-    case 'KenticoCloudItemFeaturesSection':
+    case 'KontentItemFeaturesSection':
       return <FeaturesSection {...props.data} />
-    case 'KenticoCloudItemThreeColumnsSection':
+    case 'KontentItemThreeColumnsSection':
       return <ThreeColumnsSection {...props.data} />
-    case 'KenticoCloudItemCtaSection':
+    case 'KontentItemCtaSection':
       return <CtaSection {...props.data} />
-    case 'KenticoCloudItemFooterSection':
+    case 'KontentItemFooterSection':
       return <FooterSection {...props.data} />
     default:
       return <div>Unknown section!</div>

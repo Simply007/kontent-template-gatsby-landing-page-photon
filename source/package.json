@@ -1,14 +1,15 @@
 {
-  "name": "cloud-template-gatsby",
-  "description": "Kentico Cloud & GatsbyJs web template.",
+  "name": "kontent-template-gatsby-landing-page-photon",
+  "description": "Kentico Kontent & GatsbyJs web template.",
   "version": "1.0.1",
   "author": "Ondřej Chrastina <chrastina.ondra@gmail.com> (https://github.com/Simply007)",
   "keywords": [
     "kentico",
-    "kentico cloud",
+    "kentico kontent",
     "web template",
     "gatsby",
-    "photon"
+    "photon",
+    "caas"
   ],
   "license": "MIT",
   "scripts": {
@@ -19,15 +20,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Simply007/cloud-template-gatsby"
+    "url": "https://github.com/Simply007/kontent-template-gatsby-landing-page-photon"
   },
   "dependencies": {
+    "@kentico/gatsby-source-kontent": "^4.0.0-beta2",
     "gatsby": "^2.0.76",
     "gatsby-plugin-manifest": "^2.0.9",
     "gatsby-plugin-offline": "^2.0.16",
     "gatsby-plugin-react-helmet": "^3.0.2",
     "gatsby-plugin-sass": "^2.0.7",
-    "gatsby-source-kentico-cloud": "^3.0.0",
     "node-sass": "^4.11.0",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
