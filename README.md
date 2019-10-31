@@ -1,6 +1,6 @@
 # Kentico Cloud & GatsbyJs web template
 
-[![Preview](https://img.shields.io/badge/-Preview-brightgreen.svg)](https://cloud-template-gatsby.surge.sh/)
+[![Preview](https://img.shields.io/badge/-Preview-brightgreen.svg)](https://kontent-template-gatsby-landing-page-photon.surge.sh/)
 
 Kentico cloud web template using Gatsby and Kentico Cloud.
 
@@ -46,11 +46,11 @@ Kentico cloud web template using Gatsby and Kentico Cloud.
 
 ### Color palette
 
-To define color pallette - change values of variables stored in [_vars.scss](https://github.com/Simply007/cloud-template-gatsby/blob/master/source/src/assets/scss/libs/_vars.scss#L32).
+To define color pallette - change values of variables stored in [_vars.scss](https://github.com/Simply007/kontent-template-gatsby-landing-page-photon/blob/master/source/src/assets/scss/libs/_vars.scss#L32).
 
 ### Icons
 
-It is possible to use [two sets of font icons](https://github.com/Simply007/cloud-template-gatsby/tree/master/source/src/assets/css) - [Material Icons](https://material.io/tools/icons/) as well as [Font Awesome](https://fontawesome.com/).
+It is possible to use [two sets of font icons](https://github.com/Simply007/kontent-template-gatsby-landing-page-photon/tree/master/source/src/assets/css) - [Material Icons](https://material.io/tools/icons/) as well as [Font Awesome](https://fontawesome.com/).
 
 Format Example:
 
