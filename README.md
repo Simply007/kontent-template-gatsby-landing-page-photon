@@ -1,9 +1,9 @@
-# Kentico Cloud & GatsbyJs web template
+# Kentico Kontent & GatsbyJs web template
 
-[![Preview](https://img.shields.io/badge/-Preview-brightgreen.svg)](https://kontent-template-gatsby-landing-page-photon.surge.sh/)
+[![Preview](https://img.shields.io/badge/-Preview-brightgreen.svg)](https://kontent-template-gatsby-landing-page-photon.netlify.com)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/ba608493-8415-46e4-87c9-19f025f56619/deploy-status)](https://app.netlify.com/sites/kontent-template-gatsby-landing-page-photon/deploys)
 
-Kentico cloud web template using Gatsby and Kentico Cloud.
+Kentico Kontent web template using Gatsby and Kentico Kontent.
 
 ![template preview](/template.jpg)
 
@@ -23,10 +23,10 @@ Kentico cloud web template using Gatsby and Kentico Cloud.
     yarn
     ```
 
-1. [Register on Kentico Cloud](http://app.kenticocloud.com)
-1. [Create an empty project](https://docs.kenticocloud.com/tutorials/set-up-projects/manage-projects/adding-projects)
-1. [Enable Content Management API](https://docs.kenticocloud.com/tutorials/set-up-projects/migrate-content/importing-to-kentico-cloud#a-enabling-the-api-for-your-project)
-1. Import [content.zip](/content.zip) data using [Template manager](https://kentico.github.io/cloud-template-manager/import-from-file)
+1. [Register on Kentico Kontent](http://app.kontent.ai)
+1. [Create an empty project](https://docs.kontent.ai/tutorials/set-up-projects/manage-projects/creating-and-archiving-projects)
+1. [Enable Content Management API](https://docs.kontent.ai/tutorials/set-up-projects/migrate-content/importing-to-kentico-kontent#a-enabling-the-api-for-your-project)
+1. Import [content.zip](/content.zip) data using [Template manager](https://kentico.github.io/kontent-template-manager/import-from-file)
     * Use `Project Id` and `Content Management API key` from previously generated project.
 1. Place the `ProjectId` to the  [`/source/gatsby-config.js`](/source/gatsby-config.js#L13) configuration file.
 1. Run development environment
@@ -40,7 +40,7 @@ Kentico cloud web template using Gatsby and Kentico Cloud.
 ## Features
 
 * [GatsbyJS](https://www.gatsbyjs.org/) static site generator
-* Data source - Kentico Cloud (using [Gatsby source plugin for Kentico Cloud](https://www.gatsbyjs.org/packages/gatsby-source-kentico-cloud/))
+* Data source - Kentico Kontent (using [Gatsby source plugin for Kentico Kontent](https://www.gatsbyjs.org/packages/gatsby-source-kentico-cloud/))
 * Styling using SCSS
 * [Font awesome + Material Icons](#Icons)
 * [CSS Grid](#CSS-Grid)
