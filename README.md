@@ -5,7 +5,7 @@
 
 Kentico Kontent web template using Gatsby and Kentico Kontent.
 
-![template preview](/template.png)
+![template preview](/template.jpg)
 
 ## Get started
 
