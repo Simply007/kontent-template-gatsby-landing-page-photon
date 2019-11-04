@@ -16,10 +16,9 @@ Kentico Kontent web template using Gatsby and Kentico Kontent.
 
 ### Run
 
-1. [Clone](https://git-scm.com/docs/git-clone) or [fork](https://hub.github.com/hub-fork.1.html) this repository. Once it's done, navigate to the app's `/source`  and install the packages:
+1. [Clone](https://git-scm.com/docs/git-clone) or [fork](https://hub.github.com/hub-fork.1.html) this repository. Once it's done, install the packages:
 
     ```sh
-    cd source
     yarn
     ```
 
@@ -28,7 +27,7 @@ Kentico Kontent web template using Gatsby and Kentico Kontent.
 1. [Enable Content Management API](https://docs.kontent.ai/tutorials/set-up-projects/migrate-content/importing-to-kentico-kontent#a-enabling-the-api-for-your-project)
 1. Import [content.zip](/content.zip) data using [Template manager](https://kentico.github.io/kontent-template-manager/import-from-file)
     * Use `Project Id` and `Content Management API key` from previously generated project.
-1. Place the `ProjectId` to the  [`/source/gatsby-config.js`](/source/gatsby-config.js#L13) configuration file.
+1. Place the `ProjectId` to the  [`/gatsby-config.js`](/gatsby-config.js#L13) configuration file.
 1. Run development environment
 
     ```sh
@@ -40,18 +39,18 @@ Kentico Kontent web template using Gatsby and Kentico Kontent.
 ## Features
 
 * [GatsbyJS](https://www.gatsbyjs.org/) static site generator
-* Data source - Kentico Kontent (using [Gatsby source plugin for Kentico Kontent](https://www.gatsbyjs.org/packages/gatsby-source-kentico-cloud/))
+* Data source - Kentico Kontent (using [Gatsby source plugin for Kentico Kontent](https://www.gatsbyjs.org/packages/@kentico/gatsby-source-kontent))
 * Styling using SCSS
 * [Font awesome + Material Icons](#Icons)
 * [CSS Grid](#CSS-Grid)
 
 ### Color palette
 
-To define color pallette - change values of variables stored in [_vars.scss](https://github.com/Simply007/kontent-template-gatsby-landing-page-photon/blob/master/source/src/assets/scss/libs/_vars.scss#L32).
+To define color pallette - change values of variables stored in [_vars.scss](https://github.com/Simply007/kontent-template-gatsby-landing-page-photon/blob/master/src/assets/scss/libs/_vars.scss#L32).
 
 ### Icons
 
-It is possible to use [two sets of font icons](https://github.com/Simply007/kontent-template-gatsby-landing-page-photon/tree/master/source/src/assets/css) - [Material Icons](https://material.io/tools/icons/) as well as [Font Awesome](https://fontawesome.com/).
+It is possible to use [two sets of font icons](https://github.com/Simply007/kontent-template-gatsby-landing-page-photon/tree/master/src/assets/css) - [Material Icons](https://material.io/tools/icons/) as well as [Font Awesome](https://fontawesome.com/).
 
 Format Example:
 
