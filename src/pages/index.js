@@ -201,7 +201,6 @@ class Homepage extends React.Component {
 }
 `}
         render={({ kontentItemSectionsPage }) => {
-          console.log(kontentItemSectionsPage.elements.sections.linked_items);
           const sections = kontentItemSectionsPage.elements.sections.linked_items.map(
             (section, index) => <Section key={index} data={section} />
           )
