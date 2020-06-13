@@ -1,0 +1,5 @@
+[build]
+  publish = "public"
+  command = "gatsby build"
+[context.production]
+  environment ={  KONTENT_PROJECT_ID = "be4a893e-e87c-00e3-c66a-203a876e058a", KONTENT_LANGUAGE_CODENAMES = "default" }
