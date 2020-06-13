@@ -1,7 +1,7 @@
 import React from 'react'
 
 const ctaSection = ({ elements }) => {
-  const buttons = elements.buttons.linked_items.map(({ elements, system }) => (
+  const buttons = elements.buttons.value.map(({ elements, system }) => (
     <li key={system.id}>
       <a
         href={elements.url.value}

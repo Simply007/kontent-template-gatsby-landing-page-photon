@@ -1,11 +1,11 @@
 import React from 'react'
 
 const footerSection = ({ elements }) => {
-  const icons = elements.icons.linked_items.map(({ elements, system }) => (
+  const icons = elements.icons.value.map(({ elements, system }) => (
     <li key={system.id}>
       <a
         href={elements.url.value}
-        className={`icon alt ${elements.icon.linked_items[0].elements.code.value}`}
+        className={`icon alt ${elements.icon.value[0].elements.code.value}`}
       >
         <span className="label">{elements.text.value}</span>
       </a>

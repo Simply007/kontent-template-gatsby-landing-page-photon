@@ -3,7 +3,7 @@ import React from 'react'
 import BlogPostThumbnail from './BlogPostThumbnail'
 
 const threeColumnsSection = ({ elements }) => {
-  const blogThumbnails = elements.columns.linked_items.map(blogPost => (
+  const blogThumbnails = elements.columns.value.map(blogPost => (
     <BlogPostThumbnail
       {...blogPost}
       key={blogPost.system.id}

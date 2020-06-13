@@ -9,17 +9,17 @@ import FooterSection from './FooterSection'
 
 const Section = props => {
   switch (props.data.__typename) {
-    case 'KontentItemHeaderSection':
+    case 'kontent_item_header_section':
       return <HeaderSection {...props.data} />
-    case 'KontentItemVideoSection':
+    case 'kontent_item_video_section':
       return <VideoSection {...props.data} />
-    case 'KontentItemFeaturesSection':
+    case 'kontent_item_features_section':
       return <FeaturesSection {...props.data} />
-    case 'KontentItemThreeColumnsSection':
+    case 'kontent_item_three_columns_section':
       return <ThreeColumnsSection {...props.data} />
-    case 'KontentItemCtaSection':
+    case 'kontent_item_cta_section':
       return <CtaSection {...props.data} />
-    case 'KontentItemFooterSection':
+    case 'kontent_item_footer_section':
       return <FooterSection {...props.data} />
     default:
       return <div>Unknown section!</div>
