@@ -27,7 +27,7 @@ Kentico Kontent web template using Gatsby and Kentico Kontent.
 1. [Enable Content Management API](https://docs.kontent.ai/tutorials/set-up-projects/migrate-content/importing-to-kentico-kontent#a-enabling-the-api-for-your-project)
 1. Import [content.zip](/content.zip) data using [Template manager](https://kentico.github.io/kontent-template-manager/import-from-file)
     * Use `Project Id` and `Content Management API key` from previously generated project.
-1. Place the `ProjectId` to the  [`/gatsby-config.js`](/gatsby-config.js#L13) configuration file.
+1. Copy [.env.template](./.env.template) and name it `.env`, then set the `KONTENT_PROJECT_ID` environment variable to value from Kontent -> "Project Settings" -> API keys -> Project ID.
 1. Run development environment
 
     ```sh
@@ -35,6 +35,14 @@ Kentico Kontent web template using Gatsby and Kentico Kontent.
     ```
 
 🚀 Your site is now running at http://localhost:8000!
+
+## Deploy with Netlify
+
+Netlify CMS can run in any frontend web environment, but the quickest way to try it out is by running it on a pre-configured starter site with Netlify. Use the button below to build and deploy your own copy of the repository:
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Simply007/kontent-template-gatsby-landing-page-photon)
+
+> After clicking that button, you’ll authenticate with GitHub and choose a repository name. Netlify will then automatically create a repository in your GitHub account with a copy of the files from the template. Next, it will build and deploy the new site on Netlify, bringing you to the site dashboard when the build is complete.
 
 ## Features
 

@@ -14,3 +14,10 @@ yarn.lock
 
 # From VS Code
 .cs/
+
+# Environment variables
+.env*
+!.env.template
+
+# Logs
+*.log

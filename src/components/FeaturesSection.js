@@ -1,7 +1,7 @@
 import React from 'react'
 
 const featuresSection = ({ elements }) => {
-  const icons = elements.icons.linked_items.map((icon, index) => (
+  const icons = elements.icons.value.map((icon, index) => (
     <li key={icon.system.id}>
       <span
         className={`icon style${index + 1} major ${icon.elements.code.value}`}
